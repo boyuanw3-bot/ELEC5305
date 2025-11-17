@@ -1,4 +1,4 @@
-##Result：
+## Result：
 pictures are in the outputs 
 
 Audio is in data and you can see the demo in data/audio demos
@@ -83,9 +83,9 @@ python src/visualize.py
 **Output**: Plots and figures showing feature distributions, confusion matrices, and performance comparisons
 
 ### 7. Evaluate All
-```bash
+
 python src/evaluate_all.py
-```
+
 **Output**: Complete evaluation report with all metrics across all configurations
 
 
