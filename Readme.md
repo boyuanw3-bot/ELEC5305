@@ -89,7 +89,7 @@ python src/evaluate_all.py
 **Output**: Complete evaluation report with all metrics across all configurations
 
 ### 8.Challenging Evaluation
-bashpython utils/challenging_evaluation.py
+python src/challenging_evaluation.py
 
 Purpose: Test system performance on difficult scenarios
 **Output**:
