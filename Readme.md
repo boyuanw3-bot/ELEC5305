@@ -88,4 +88,17 @@ python src/evaluate_all.py
 
 **Output**: Complete evaluation report with all metrics across all configurations
 
+### 8.Challenging Evaluation
+bashpython utils/challenging_evaluation.py
 
+Purpose: Test system performance on difficult scenarios
+**Output**:
+Performance on low SNR (noisy) conditions
+
+Results with different speaker accents
+
+Recognition accuracy on overlapping speech
+
+Handling of background noise and reverberations
+
+Challenging phoneme confusion analysis
