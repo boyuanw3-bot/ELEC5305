@@ -1,6 +1,7 @@
 ##Result：
-pictures are in the outputs
-audio is in data and you can see the demo in data/audio demos
+pictures are in the outputs 
+
+Audio is in data and you can see the demo in data/audio demos
 ## Running Order
 
 ### 1. Quick Demo
