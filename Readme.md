@@ -1,4 +1,6 @@
-
+##Result：
+pictures are in the outputs
+audio is in data and you can see the demo in data/audio demos
 ## Running Order
 
 ### 1. Quick Demo
@@ -9,7 +11,7 @@ python demo_quickstart.py
 
 ### 2. Baseline System
 
-python utils/baseline_mfcc.py
+python src/baseline_mfcc.py
 
 **Output**: Baseline MFCC-based speech recognition results and accuracy metrics
 
@@ -17,13 +19,13 @@ python utils/baseline_mfcc.py
 
 #### ICA Features
 
-python utils/ica.py
+python src/ica.py
 
 **Output**: ICA-extracted features from audio signals
 
 #### Gammatone Features
 
-python utils/gammatone.py
+python src/gammatone.py
 
 **Output**: Gammatone filterbank features
 
@@ -31,19 +33,19 @@ python utils/gammatone.py
 
 #### Comprehensive Evaluation
 
-python utils/comprehensive_evaluation.py
+python src/comprehensive_evaluation.py
 
 **Output**: Full evaluation results comparing different feature extraction methods
 
 #### Multi-SNR Evaluation
 
-python utils/multi_snr_evaluation.py
+python src/multi_snr_evaluation.py
 
 **Output**: System performance under different signal-to-noise ratio conditions
 
 #### Challenging Evaluation
 
-python utils/challenging_evaluation.py
+python src/challenging_evaluation.py
 
 **Output**: Results on challenging test cases (noisy environments, accents, etc.)
 
@@ -51,36 +53,38 @@ python utils/challenging_evaluation.py
 
 #### Feature Analysis
 
-python utils/feature_analysis.py
+python src/feature_analysis.py
 
 **Output**: Visualization and analysis of extracted features
 
 #### Detailed Analysis
 
-python utils/detailed_analysis.py
+python src/detailed_analysis.py
 
 **Output**: Detailed performance breakdown by phoneme, word, or utterance
 
 #### Hyperparameter Optimization
 
-python utils/hyperparameter_optimization.py
+python src/hyperparameter_optimization.py
 
 **Output**: Optimal hyperparameters and performance curves
 
 #### Noise Robustness Analysis
-```bash
-python utils/noise_robustness_analysis.py
-```
+
+python src/noise_robustness_analysis.py
+
 **Output**: System robustness metrics under various noise conditions
 
 ### 6. Visualization
-```bash
-python utils/visualize.py
-```
+
+python src/visualize.py
+
 **Output**: Plots and figures showing feature distributions, confusion matrices, and performance comparisons
 
 ### 7. Evaluate All
 ```bash
-python utils/evaluate_all.py
+python src/evaluate_all.py
 ```
 **Output**: Complete evaluation report with all metrics across all configurations
+
+
