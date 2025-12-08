@@ -1,0 +1,21 @@
+================================================================================
+ELEC5305 Project - Baseline System Results
+================================================================================
+
+Date: 2025-12-09 01:46:55
+
+Overall Accuracy: 96.67%
+Number of Test Samples: 30
+Correct Predictions: 29
+
+Per-Digit Accuracy:
+  Digit 0: 100.0%
+  Digit 1: 100.0%
+  Digit 2: 100.0%
+  Digit 3: 100.0%
+  Digit 4: 100.0%
+  Digit 5: 100.0%
+  Digit 6: 100.0%
+  Digit 7: 100.0%
+  Digit 8: 100.0%
+  Digit 9: 66.7%
